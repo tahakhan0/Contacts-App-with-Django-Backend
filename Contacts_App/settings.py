@@ -135,6 +135,9 @@ USE_TZ = True
 # STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+CORS_ORIGIN_ALLOW_ALL = True
+
+
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 STATIC_URL = '/static/'
@@ -147,6 +150,5 @@ STATICFILES_DIRS = (
 # CORS_ORIGIN_WHITELIST = [
 #     'http://localhost:3000',
 # ]
-CORS_ORIGIN_ALLOW_ALL = True
 
 django_heroku.settings(locals())
