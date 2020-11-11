@@ -2,7 +2,7 @@
 A backend developed to mimic a contacts application. It supports addition of multiple email fields, address fields, and phone numbers. 
 
 # A screenshot of the view at http://localhost:8000/api/contacts/
-![Optional Text](../main/img1.png)
+![Optional Text](../master/img1.png)
 
 # A sample post request to the api at http://localhost:8000/api/contacts/add
               {
