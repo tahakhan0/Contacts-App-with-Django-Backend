@@ -32,11 +32,11 @@ A backend developed to mimic a contacts application. It supports addition of mul
                   ]
               }
               
- ![Optional Text](../main/img2.png)
+ ![Optional Text](../master/img2.png)
  
  
  # To retrieve the details of any contact visit: http://localhost:8000/api/contacts/ID
   
-  ![Optional Text](../main/img3.png)
+  ![Optional Text](../master/img3.png)
   
               
