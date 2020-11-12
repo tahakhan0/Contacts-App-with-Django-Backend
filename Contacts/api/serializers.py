@@ -83,7 +83,7 @@ class CreateContactSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Contact
-        fields = ["pk", "first_name", "last_name", "company",
+        fields = ["id", "first_name", "last_name", "company",
                   "notes", "phone", "email", "address", 'social_media']
 
     def create(self, validated_data):

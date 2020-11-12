@@ -1,10 +1,12 @@
 from .serializers import *
 from rest_framework import generics
 from Contacts.models import *
+from django.db.models.functions import Lower
 
 
 class ContactsView(generics.ListAPIView):
-    queryset = Contact.objects.all().order_by('first_name')
+    queryset = Contact.objects.all().order_by(
+        Lower('first_name'), Lower('last_name'))
     serializer_class = ContactSerializer
 
 
