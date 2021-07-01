@@ -1,10 +1,12 @@
-# Contacts App with Django-Backend
+## Contacts App with Django-Backend
 A backend developed to mimic a contacts application. It supports addition of multiple email fields, address fields, and phone numbers. 
 
-# A screenshot of the view at http://localhost:8000/api/contacts/
+A screenshot of the view at http://localhost:8000/api/contacts/
+
 ![Optional Text](../master/img1.png)
 
-# A sample post request to the api at http://localhost:8000/api/contacts/add
+A sample post request to the api at http://localhost:8000/api/contacts/add
+```json
               {
                   "first_name":"John",
                   "last_name":"Smith",
@@ -31,11 +33,12 @@ A backend developed to mimic a contacts application. It supports addition of mul
                       }
                   ]
               }
+  ```
               
  ![Optional Text](../master/img2.png)
  
  
- # To retrieve the details of any contact visit: http://localhost:8000/api/contacts/ID
+ #### To retrieve the details of any contact visit: http://localhost:8000/api/contacts/ID
   
   ![Optional Text](../master/img3.png)
   
